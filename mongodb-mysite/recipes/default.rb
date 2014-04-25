@@ -3,4 +3,5 @@ include_recipe "mongodb::default"
 
 mongodb_instance "mongodb" do
   dbpath "/mnt/disk1/mongodb/"
+  logpath "/mnt/disk1/mongodb/mongodb.log"
 end
